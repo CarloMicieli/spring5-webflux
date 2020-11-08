@@ -1,0 +1,13 @@
+2020-11-08 17:20:34,588 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2020-11-08 17:20:34,604 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Spring5WebApplication using Java 11.0.9 on midori with PID 9653 (/home/carlo/Projects/spring5-webflux/target/classes started by carlo in /home/carlo/Projects/spring5-webflux)
+2020-11-08 17:20:34,605 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0-RC1, Spring v5.3.0
+2020-11-08 17:20:34,606 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-11-08 17:20:34,632 INFO o.s.b.l.DeferredLog [restartedMain] The Class-Path manifest attribute in /home/carlo/.m2/repository/org/liquibase/liquibase-core/3.10.3/liquibase-core-3.10.3.jar referenced one or more files that do not exist: file:/home/carlo/.m2/repository/org/liquibase/liquibase-core/3.10.3/commons-cli-1.4.jar,file:/home/carlo/.m2/repository/org/liquibase/liquibase-core/3.10.3/snakeyaml-1.24.jar,file:/home/carlo/.m2/repository/org/liquibase/liquibase-core/3.10.3/slf4j-api-1.7.28.jar,file:/home/carlo/.m2/repository/org/liquibase/liquibase-core/3.10.3/logback-classic-1.2.3.jar,file:/home/carlo/.m2/repository/org/liquibase/liquibase-core/3.10.3/logback-core-1.2.3.jar
+2020-11-08 17:20:34,633 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-08 17:20:34,633 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-08 17:20:35,087 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2020-11-08 17:20:35,092 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 0 R2DBC repository interfaces.
+2020-11-08 17:20:35,487 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-08 17:20:35,535 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-11-08 17:20:35,847 INFO o.s.b.w.e.n.NettyWebServer [restartedMain] Netty started on port(s): 8080
+2020-11-08 17:20:36,045 INFO o.s.b.StartupInfoLogger [restartedMain] Started Spring5WebApplication in 1.656 seconds (JVM running for 2.104)
