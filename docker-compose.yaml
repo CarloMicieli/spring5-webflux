@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:4.4.1
+    restart: always
+    ports:
+      - "27017-27019:27017-27019"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=super!secret88
+      - MONGO_INITDB_DATABASE=testdb
+    volumes:
+      - ./mongo-volume:/data/db

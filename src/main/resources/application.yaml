@@ -1,10 +1,11 @@
 spring:
-  datasource:
-    platform: postgres
-    url: jdbc:postgresql://localhost:5432/testdb
-    username: postgres
-    password: mysecretpassword
-    initialize: true
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      user: root
+      password: super!secret88
+      database: testdb
   jpa:
     hibernate:
       ddl-auto: update

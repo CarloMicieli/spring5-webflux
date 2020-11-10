@@ -1,13 +1,65 @@
-2020-11-08 17:20:34,588 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
-2020-11-08 17:20:34,604 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Spring5WebApplication using Java 11.0.9 on midori with PID 9653 (/home/carlo/Projects/spring5-webflux/target/classes started by carlo in /home/carlo/Projects/spring5-webflux)
-2020-11-08 17:20:34,605 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0-RC1, Spring v5.3.0
-2020-11-08 17:20:34,606 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2020-11-08 17:20:34,632 INFO o.s.b.l.DeferredLog [restartedMain] The Class-Path manifest attribute in /home/carlo/.m2/repository/org/liquibase/liquibase-core/3.10.3/liquibase-core-3.10.3.jar referenced one or more files that do not exist: file:/home/carlo/.m2/repository/org/liquibase/liquibase-core/3.10.3/commons-cli-1.4.jar,file:/home/carlo/.m2/repository/org/liquibase/liquibase-core/3.10.3/snakeyaml-1.24.jar,file:/home/carlo/.m2/repository/org/liquibase/liquibase-core/3.10.3/slf4j-api-1.7.28.jar,file:/home/carlo/.m2/repository/org/liquibase/liquibase-core/3.10.3/logback-classic-1.2.3.jar,file:/home/carlo/.m2/repository/org/liquibase/liquibase-core/3.10.3/logback-core-1.2.3.jar
-2020-11-08 17:20:34,633 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-11-08 17:20:34,633 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-11-08 17:20:35,087 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
-2020-11-08 17:20:35,092 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 0 R2DBC repository interfaces.
-2020-11-08 17:20:35,487 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-11-08 17:20:35,535 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2020-11-08 17:20:35,847 INFO o.s.b.w.e.n.NettyWebServer [restartedMain] Netty started on port(s): 8080
-2020-11-08 17:20:36,045 INFO o.s.b.StartupInfoLogger [restartedMain] Started Spring5WebApplication in 1.656 seconds (JVM running for 2.104)
+2020-11-10 08:18:39,328 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2020-11-10 08:18:39,347 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Spring5WebApplication using Java 11.0.9 on midori with PID 93858 (/home/carlo/Projects/spring5-webflux/target/classes started by carlo in /home/carlo/Projects/spring5-webflux)
+2020-11-10 08:18:39,348 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0-RC1, Spring v5.3.0
+2020-11-10 08:18:39,349 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-11-10 08:18:39,369 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-10 08:18:39,369 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-10 08:18:39,728 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2020-11-10 08:18:39,758 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 27 ms. Found 1 Reactive MongoDB repository interfaces.
+2020-11-10 08:18:39,942 INFO c.m.d.l.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-11-10 08:18:40,015 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='5faa3ecfd875ff479b63723e', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:4}] to localhost:27017
+2020-11-10 08:18:40,015 INFO c.m.d.l.SLF4JLogger [cluster-rtt-ClusterId{value='5faa3ecfd875ff479b63723e', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:3}] to localhost:27017
+2020-11-10 08:18:40,016 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='5faa3ecfd875ff479b63723e', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=34952369}
+2020-11-10 08:18:40,025 WARN o.s.b.d.a.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2020-11-10 08:18:40,237 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-10 08:18:40,351 INFO o.s.b.w.e.n.NettyWebServer [restartedMain] Netty started on port(s): 8080
+2020-11-10 08:18:40,360 INFO o.s.b.StartupInfoLogger [restartedMain] Started Spring5WebApplication in 1.177 seconds (JVM running for 1.615)
+2020-11-10 08:18:54,064 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='5faa3ecfd875ff479b63723e', description='null'}-localhost:27017] Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoNodeIsRecoveringException: Command failed with error 11600 (InterruptedAtShutdown): 'interrupted at shutdown' on server localhost:27017. The full response is {"ok": 0.0, "errmsg": "interrupted at shutdown", "code": 11600, "codeName": "InterruptedAtShutdown"}
+	at com.mongodb.internal.connection.ProtocolHelper.createSpecialException(ProtocolHelper.java:242) ~[mongodb-driver-core-4.1.1.jar:?]
+	at com.mongodb.internal.connection.ProtocolHelper.getCommandFailureException(ProtocolHelper.java:171) ~[mongodb-driver-core-4.1.1.jar:?]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:359) ~[mongodb-driver-core-4.1.1.jar:?]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:316) ~[mongodb-driver-core-4.1.1.jar:?]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215) [mongodb-driver-core-4.1.1.jar:?]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) [mongodb-driver-core-4.1.1.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-11-10 08:19:04,078 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='5faa3ecfd875ff479b63723e', description='null'}-localhost:27017] Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.netty.NettyStream$OpenChannelFutureListener.operationComplete(NettyStream.java:439) ~[mongodb-driver-core-4.1.1.jar:?]
+	at com.mongodb.connection.netty.NettyStream$OpenChannelFutureListener.operationComplete(NettyStream.java:407) ~[mongodb-driver-core-4.1.1.jar:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577) ~[netty-common-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:570) ~[netty-common-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:549) ~[netty-common-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490) ~[netty-common-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615) ~[netty-common-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:608) ~[netty-common-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117) ~[netty-common-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321) ~[netty-transport-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337) ~[netty-transport-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702) ~[netty-transport-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650) ~[netty-transport-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576) ~[netty-transport-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) ~[netty-transport-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) ~[netty-common-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.53.Final.jar:4.1.53.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:27017
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.1.53.Final.jar:4.1.53.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.53.Final.jar:4.1.53.Final]
+	... 8 more
+2020-11-10 08:22:50,140 INFO c.m.d.l.SLF4JLogger [cluster-rtt-ClusterId{value='5faa3ecfd875ff479b63723e', description='null'}-localhost:27017] Opened connection [connectionId{localValue:48, serverValue:1}] to localhost:27017
+2020-11-10 08:22:54,167 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='5faa3ecfd875ff479b63723e', description='null'}-localhost:27017] Opened connection [connectionId{localValue:49, serverValue:2}] to localhost:27017
+2020-11-10 08:22:54,168 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='5faa3ecfd875ff479b63723e', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4981504}
+2020-11-10 08:23:09,717 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='5faa3ecfd875ff479b63723e', description='null'}-localhost:27017] Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoNodeIsRecoveringException: Command failed with error 11600 (InterruptedAtShutdown): 'interrupted at shutdown' on server localhost:27017. The full response is {"ok": 0.0, "errmsg": "interrupted at shutdown", "code": 11600, "codeName": "InterruptedAtShutdown"}
+	at com.mongodb.internal.connection.ProtocolHelper.createSpecialException(ProtocolHelper.java:242) ~[mongodb-driver-core-4.1.1.jar:?]
+	at com.mongodb.internal.connection.ProtocolHelper.getCommandFailureException(ProtocolHelper.java:171) ~[mongodb-driver-core-4.1.1.jar:?]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:359) ~[mongodb-driver-core-4.1.1.jar:?]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:316) ~[mongodb-driver-core-4.1.1.jar:?]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215) [mongodb-driver-core-4.1.1.jar:?]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) [mongodb-driver-core-4.1.1.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
